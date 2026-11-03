@@ -2,33 +2,12 @@
     (
         modifiers: [
             Super,
-            Shift,
-        ],
-        key: "f",
-    ): Fullscreen,
-    (
-        modifiers: [
-            Super,
         ],
         key: "f",
     ): Maximize,
     (
         modifiers: [
             Super,
-            Alt,
-        ],
-        key: "Delete",
-        description: Some("toggle-second-monitor"),
-    ): Spawn("/home/user/bin/toggle-monitor \"HDMI-A-2\""),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Return",
-    ): System(Terminal),
-    (
-        modifiers: [
-            Super,
             Shift,
         ],
         key: "Escape",
@@ -40,36 +19,21 @@
     ): Disable,
     (
         modifiers: [
-            Ctrl,
             Alt,
         ],
-        key: "Delete",
-    ): System(LockScreen),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-            Shift,
-        ],
-        key: "q",
-    ): Close,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Escape",
+        key: "F4",
     ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "d",
-    ): System(AppLibrary),
     (
         modifiers: [
             Super,
         ],
         key: "a",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Escape",
     ): Disable,
     (
         modifiers: [
@@ -83,20 +47,35 @@
             Super,
         ],
         key: "Delete",
-        description: Some("turn-off-monitors"),
-    ): Spawn("wlopm --off \"*\""),
+    ): Spawn("/home/user/bin/toggle-monitor \"HDMI-A-2\""),
     (
         modifiers: [
             Super,
         ],
-        key: "e",
-    ): System(HomeFolder),
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "Delete",
+    ): System(LockScreen),
     (
         modifiers: [
             Super,
+            Shift,
         ],
-        key: "F11",
-    ): Disable,
+        key: "f",
+    ): Fullscreen,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "q",
+    ): Close,
     (
         modifiers: [
             Super,
@@ -111,8 +90,20 @@
     ): Disable,
     (
         modifiers: [
-            Alt,
+            Super,
         ],
-        key: "F4",
+        key: "d",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F11",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): System(HomeFolder),
 }
