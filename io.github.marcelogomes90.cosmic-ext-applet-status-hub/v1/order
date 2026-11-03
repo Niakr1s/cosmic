@@ -11,4 +11,8 @@
         id: "tray-icon tray app clash-verge-rev-tray",
         dup: 0,
     ),
+    (
+        id: "wine-0x100e6-0",
+        dup: 0,
+    ),
 ]
