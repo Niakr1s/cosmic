@@ -1,0 +1,1 @@
+"| C {cpu_temp} {cpu_usage} | G {gpu_temp} | RAM {ram_usage} | ↓{dl_speed} |"

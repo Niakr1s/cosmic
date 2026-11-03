@@ -1,3 +1,4 @@
 Some([
+    "com.github.codevardhan.caffeine-applet",
     "com.system76.CosmicAppletWorkspaces",
 ])

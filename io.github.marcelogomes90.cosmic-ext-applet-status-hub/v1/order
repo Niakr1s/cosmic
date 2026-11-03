@@ -1,0 +1,14 @@
+[
+    (
+        id: "qBittorrent",
+        dup: 0,
+    ),
+    (
+        id: "KeePassXC",
+        dup: 0,
+    ),
+    (
+        id: "tray-icon tray app clash-verge-rev-tray",
+        dup: 0,
+    ),
+]
