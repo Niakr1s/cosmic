@@ -1,7 +1,7 @@
 [
     "org.gnome.SystemMonitor",
     "org.mozilla.firefox",
-    "com.system76.CosmicFiles",
+    "org.gnome.Nautilus",
     "com.system76.CosmicTerm",
     "com.system76.CosmicEdit",
     "com.system76.CosmicStore",
