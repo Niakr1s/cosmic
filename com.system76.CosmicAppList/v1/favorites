@@ -1,9 +1,7 @@
 [
+    "com.system76.CosmicSettings",
     "org.gnome.SystemMonitor",
     "org.mozilla.firefox",
     "org.gnome.Nautilus",
     "kitty",
-    "com.system76.CosmicEdit",
-    "com.system76.CosmicStore",
-    "com.system76.CosmicSettings",
 ]
