@@ -7,7 +7,6 @@ Some(([
 ], [
     "com.system76.CosmicAppletInputSources",
     "com.system76.CosmicAppletStatusArea",
-    "io.github.cosmic_nightlight",
     "com.system76.CosmicAppletTiling",
     "com.system76.CosmicAppletAudio",
     "com.system76.CosmicAppletBluetooth",
