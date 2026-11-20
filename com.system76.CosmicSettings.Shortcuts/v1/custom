@@ -2,29 +2,10 @@
     (
         modifiers: [
             Super,
+            Alt,
             Shift,
         ],
-        key: "j",
-    ): MoveToNextWorkspace,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "k",
-    ): MoveToPreviousWorkspace,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "i",
+        key: "Up",
     ): Disable,
     (
         modifiers: [
@@ -35,247 +16,23 @@
     (
         modifiers: [
             Super,
-        ],
-        key: "bracketleft",
-    ): SwitchOutput(Left),
-    (
-        modifiers: [
-            Super,
-            Ctrl,
+            Shift,
         ],
         key: "k",
-    ): PreviousWorkspace,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Down",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "equal",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "f",
-    ): Maximize,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "e",
-    ): System(HomeFolder),
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "s",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "g",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Tab",
-    ): System(WindowSwitcher),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "F11",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "bracketright",
-    ): SwitchOutput(Right),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "comma",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Left",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "t",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Tab",
-    ): System(WindowSwitcherPrevious),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Left",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "h",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Up",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Return",
-    ): System(Terminal),
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "f",
-    ): Fullscreen,
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "j",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Down",
-    ): MoveToNextWorkspace,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "d",
-    ): System(AppLibrary),
-    (
-        modifiers: [
-            Super,
-            Alt,
-        ],
-        key: "Up",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "a",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "minus",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "s",
-    ): ToggleStacking,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Down",
-    ): NextWorkspace,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Delete",
-        description: Some("toggle-monitor"),
-    ): Spawn("MONITOR=HDMI-A-2 /home/user/bin/toggle-monitor-cosmic"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "w",
-    ): System(WorkspaceOverview),
-    (
-        modifiers: [],
-        key: "XF86LaunchA",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "j",
-    ): NextWorkspace,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "Up",
     ): MoveToPreviousWorkspace,
     (
         modifiers: [
-            Alt,
+            Super,
         ],
-        key: "F4",
-    ): Disable,
+        key: "grave",
+    ): ToggleTiling,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "j",
+    ): MoveToNextWorkspace,
     (
         modifiers: [
             Super,
@@ -287,63 +44,13 @@
     (
         modifiers: [
             Super,
-            Ctrl,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "v",
-    ): ToggleWindowFloating,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "y",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "Right",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
-            Shift,
-        ],
-        key: "l",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Shift,
-        ],
-        key: "bracketleft",
-    ): MoveToOutput(Left),
-    (
-        modifiers: [
-            Super,
             Alt,
         ],
-        key: "k",
+        key: "j",
     ): Disable,
     (
-        modifiers: [
-            Super,
-        ],
+        modifiers: [],
+        key: "XF86LaunchA",
     ): Disable,
     (
         modifiers: [
@@ -357,11 +64,63 @@
             Super,
             Alt,
         ],
-        key: "Left",
+        key: "Down",
     ): Disable,
     (
         modifiers: [
             Super,
+        ],
+        key: "minus",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "f",
+    ): Maximize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "u",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "s",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(AppLibrary),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "v",
+    ): ToggleWindowFloating,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "Up",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
             Shift,
         ],
         key: "l",
@@ -369,9 +128,90 @@
     (
         modifiers: [
             Super,
+            Alt,
             Shift,
         ],
-        key: "h",
+        key: "k",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Escape",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "bracketleft",
+    ): MoveToOutput(Left),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "comma",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "i",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Down",
+    ): NextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "e",
+    ): System(HomeFolder),
+    (
+        modifiers: [
+            Alt,
+        ],
+        key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Tab",
+    ): System(WindowSwitcher),
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Tab",
+    ): System(WindowSwitcherPrevious),
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "l",
     ): Disable,
     (
         modifiers: [
@@ -384,12 +224,6 @@
     (
         modifiers: [
             Super,
-        ],
-        key: "grave",
-    ): ToggleTiling,
-    (
-        modifiers: [
-            Super,
             Alt,
         ],
         key: "Right",
@@ -397,9 +231,89 @@
     (
         modifiers: [
             Super,
+            Shift,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "j",
+    ): NextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "y",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "a",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Down",
+    ): MoveToNextWorkspace,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "t",
+    ): Disable,
+    (
+        modifiers: [
             Alt,
         ],
+        key: "F4",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "Left",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "F11",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
         key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Shift,
+        ],
+        key: "Delete",
+        description: Some("shutdown osk"),
+    ): Spawn("/usr/bin/cosmic-osd shutdown"),
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
+        key: "Left",
     ): Disable,
     (
         modifiers: [
@@ -407,6 +321,28 @@
         ],
         key: "Escape",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+            Shift,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "f",
+    ): Fullscreen,
     (
         modifiers: [
             Super,
@@ -429,50 +365,123 @@
     ): MoveToOutput(Right),
     (
         modifiers: [
+            Super,
+        ],
+        key: "bracketright",
+    ): SwitchOutput(Right),
+    (
+        modifiers: [
+            Super,
             Alt,
-        ],
-        key: "Tab",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "u",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Ctrl,
-        ],
-        key: "Left",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
             Shift,
-        ],
-        key: "Escape",
-    ): Disable,
-    (
-        modifiers: [
-            Super,
-            Alt,
         ],
         key: "Down",
     ): Disable,
     (
         modifiers: [
             Super,
+        ],
+        key: "Delete",
+        description: Some("toggle-monitor"),
+    ): Spawn("MONITOR=HDMI-A-2 /home/user/bin/toggle-monitor-cosmic"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "bracketleft",
+    ): SwitchOutput(Left),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "equal",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Up",
+    ): MoveToPreviousWorkspace,
+    (
+        modifiers: [
+            Super,
             Alt,
             Shift,
         ],
+        key: "j",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Alt,
+        ],
         key: "k",
     ): Disable,
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "h",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): System(WorkspaceOverview),
     (
         modifiers: [
             Alt,
             Shift,
         ],
         key: "Tab",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "s",
+    ): ToggleStacking,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Return",
+    ): System(Terminal),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "k",
+    ): PreviousWorkspace,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "l",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+        ],
+        key: "Right",
+    ): Disable,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "g",
     ): Disable,
 }
