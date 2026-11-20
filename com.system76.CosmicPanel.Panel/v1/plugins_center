@@ -1,3 +1,5 @@
 Some([
+    "io.github.hasmolam.cosmic-ext-applet-scratchpad",
     "com.system76.CosmicAppletWorkspaces",
+    "com.system76.CosmicAppletOsk",
 ])
