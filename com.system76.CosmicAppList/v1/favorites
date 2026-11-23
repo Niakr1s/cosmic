@@ -1,6 +1,6 @@
 [
     "com.system76.CosmicSettings",
-    "org.gnome.SystemMonitor",
+    "io.missioncenter.MissionCenter",
     "org.gnome.Nautilus",
     "org.mozilla.firefox",
     "kitty",
